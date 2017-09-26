@@ -1,0 +1,97 @@
+<html>
+<head>
+	<title>Scientific Calculator</title>
+</head>
+<body>
+   <div class="container">
+	 <h1>Scientific Calculator</h1>
+	  <div class="screen">
+	  	<form name="calculator">
+        <input type="text" name="disply" id="cals"size="20px" readonly style="text-align:right">
+         </form>
+         </div>
+            <div class="btns">
+ 		
+   		<p>
+   			<input type="button" value="SIN" class="button silver">
+            <input type="button" value="COS" class="button silver">
+            <input type="button" value="TAN" class="button silver">
+            <input type="button" value="(-)" class="button silver">
+            <input type="button" value="CLR" class="button silver">
+   		</p>
+
+ 	     <p>
+            <input type="button" value="SQRT" class="button silver">
+            <input type="button" value="SQR" class="button silver">
+            <input type="button" value="^" class="button silver">
+            <input type="button" value="LOG" class="button silver">
+            <input type="button" value="In" class="button silver">
+ 	     </p>
+
+         <p>
+
+            <input type="button" value="RCL" class="button silver" onclick="calculator.disply.value ='RCL'">
+            <input type="button" value="(" class="button silver" onclick="calculator.disply.value +='('">
+            <input type="button" value=")" class="button silver" onclick="calculator.disply.value +=')'">
+            <input type="button" value="M+" class="button silver" onclick="calculator.disply.value ='M+'">
+            <input type="button" value="MOD" class="button silver" onclick="calculator.disply.value ='MOD'">
+         </p>
+        
+         <p>
+
+            <input type="button" value="7" class="button silver" onclick="calculator.disply.value +='7'">
+            <input type="button" value="8" class="button silver" onclick="calculator.disply.value +='8'">
+            <input type="button" value="9" class="button silver" onclick="calculator.disply.value +='9'">
+            <input type="button" value="DEL" class="button silver" onclick="calculator.disply.value =''">
+            <input type="button" value="EXIT" class="button silver" onclick="calculator.disply.value =''"> 
+         </p>
+
+         <p>
+            <input type="button" value="4" class="button silver" onclick="calculator.disply.value +='4'">
+            <input type="button" value="5" class="button silver" onclick="calculator.disply.value +='5'">
+            <input type="button" value="6" class="button silver" onclick="calculator.disply.value +='6'">
+            <input type="button" value="*" class="button silver" onclick="calculator.disply.value +='*'">
+            <input type="button" value="/" class="button silver" onclick="calculator.disply.value +='/'"> 
+         </p>     
+
+         <p>
+             <input type="button" value="1" class="button silver" onclick="calculator.disply.value +='1'">
+             <input type="button" value="2" class="button silver" onclick="calculator.disply.value +='2'">
+             <input type="button" value="3" class="button silver" onclick="calculator.disply.value +='3'">
+             <input type="button" value="+" class="button silver" onclick="calculator.disply.value +='+'">
+             <input type="button" value="-" class="button silver" onclick="calculator.disply.value +='-'"> 
+         </p>
+
+         <p>
+              <input type="button" value="0" class="button silver" onclick="calculator.disply.value +='10'">
+              <input type="button" value="." class="button silver" onclick="calculator.disply.value +='.'">
+              <input type="button" value="EXP" class="button silver" onclick="calculator.disply.value +=Math.exp(calculator.disply.value )">
+              <input type="button" value="Pi" class="button silver" onclick="calculator.disply.value +=Math.PI">
+              <input type="button" value="=" class="button silver" onclick="calculator.disply.value =eval(calculator.disply.value)">
+
+   		</p>
+     
+     
+     
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+</body>
+</html>
